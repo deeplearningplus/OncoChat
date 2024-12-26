@@ -1,13 +1,12 @@
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
-
-torchrun --nproc_per_node=8 --master_port=20005 /opt/software/github/FastChat/fastchat/train/train_qwen_lixc.py \
-    --fsdp "full_shard auto_wrap" --fsdp_transformer_layer_cls_to_wrap 'Qwen2DecoderLayer' \
-    --model_name_or_path oncochat-qwen1.5-4b \
-    --data_path data/CKP_train.no_mutation_signature.json \
+torchrun --nproc_per_node=4 --master_port=20002 train_mamba.py \
+    --fsdp "full_shard auto_wrap" --fsdp_transformer_layer_cls_to_wrap 'MambaBlock' \
+    --model_name_or_path state-spaces/mamba-130m-hf \
+    --data_path data/CKP-train.json \
     --bf16 True \
-    --output_dir oncochat-qwen1.5-4b-v2 \
+    --output_dir oncochat-mamba-130m-v2 \
     --num_train_epochs 3 \
-    --per_device_train_batch_size 2 \
+    --per_device_train_batch_size 4 \
     --per_device_eval_batch_size 2 \
     --gradient_accumulation_steps 8 \
     --evaluation_strategy "no" \
@@ -23,5 +22,4 @@ torchrun --nproc_per_node=8 --master_port=20005 /opt/software/github/FastChat/fa
     --gradient_checkpointing True \
     --model_max_length 4096 \
     --lazy_preprocess True
-    ##--dataloader_num_workers 1 \
-    ##--dataloader_persistent_workers True
+

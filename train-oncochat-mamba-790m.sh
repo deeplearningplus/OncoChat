@@ -1,10 +1,10 @@
-export CUDA_VISIBLE_DEVICES=2,3,4,5
-torchrun --nproc_per_node=4 --master_port=20002 /opt/software/github/FastChat/fastchat/train/train_mamba_lixc.py \
+export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+torchrun --nproc_per_node=4 --master_port=20002 train_mamba.py \
     --fsdp "full_shard auto_wrap" --fsdp_transformer_layer_cls_to_wrap 'MambaBlock' \
-    --model_name_or_path /data/ai/database/mymodels/state-spaces/mamba-1.4b-hf \
-    --data_path data/CKP_train.no_mutation_signature.json \
+    --model_name_or_path state-spaces/mamba-790m-hf \
+    --data_path data/CKP-train.json \
     --bf16 True \
-    --output_dir oncochat-mamba-1.4b-v2 \
+    --output_dir oncochat-mamba-790m-v2 \
     --num_train_epochs 3 \
     --per_device_train_batch_size 4 \
     --per_device_eval_batch_size 2 \
@@ -22,3 +22,4 @@ torchrun --nproc_per_node=4 --master_port=20002 /opt/software/github/FastChat/fa
     --gradient_checkpointing True \
     --model_max_length 4096 \
     --lazy_preprocess True
+

@@ -1,6 +1,6 @@
 #  Large language models enable tumor-type classification and localization of cancers of unknown primary from genomic data (OncoChat)
 
-![替代文字](src/S1.png)
+![替代文字](src/S2.png)
 ## Introduction
 Recent advances in artificial intelligence (AI) have highlighted the potential of large language models (LLMs) to revolutionize medical research. Models based on architectures such as Generative Pre-Training (GPT) and Bidirectional Encoder Representations from Transformers (BERT) have demonstrated proficiency in processing vast amounts of unstructured text, including clinical notes, pathology reports, and research publications. In clinical practice, LLMs are being applied to tasks such as medical coding, summarizing patient records, extracting data from electronic health records (EHRs), and assisting with diagnosis. Despite these successes, the application of LLMs in genomic diagnostics remains largely unexplored. 
 
@@ -33,36 +33,41 @@ pip install transformers==4.41.2 tokenizers==0.19.1 prettytable
 - The installation process will take about an hour. This heavily depends on your network bandwidth.
 
 ## Demo
-- Clone `OncoChat` locally from Github.
+- Step1 : Clone `OncoChat` locally from Github.
 ```bash
 git clone https://github.com/deeplearningplus/OncoChat.git
 ```
-- Instructions to run on data:
+
+- Step 2 : Instruction Fine-tune a LLM:
 ```bash
-# Run on GPU
-bash pretrain_gpu.sh
-
-# Run on CPU
-bash pretrain_cpu.sh
+sh train-oncochat-mamba-130m.sh
 ```
+To execute this step, set the following parameters:\
+(1)`--model_name_or_path` : LLM checkpoints ([LLM used in this study](#llm-used-in-this-study)) \
+(2)`--data_path` : Training data (e.g.,`data/CKP-train.json`) \
+(3) `--output_dir` : Directory to save the fine-tuned model 
 
-The pretrained model will be saved in `model-example` when the above command finishes running.
-We uploaded a pretrained model in `model` for this tutorial.
+OncoChat is composed of nine different LLMs. The remaining eight models need to be trained following the same steps and used for prediction. The demo training files and prediction results are displayed in the `data` folder.
 
-- Linear projection from the pretrained model
-```python
-# Run on GPU
-bash pretrain_gpu.sh
-
-# Run on CPU
-bash pretrain_cpu.sh
+- Get predictions from the fine-tuned model
+```bash
+sh predict_mamba-130m.sh
 ```
+Set the following parameters for this step:\
+(1)`--model_name_or_path` : Path to the fine-tuned model \
+(2)`--data_path` : Test data (e.g.,`data/CKP-test.json`or`data/CUP.json`) \
+(3) `--output_file` : Path to save prediction results
 
-The outputs include log file `log.txt`, checkpoint of the linear classification at each epoch and prediction probabilities on the testing set.
+Fine-tuned models are available for download from [BaiduDisk](https://pan.baidu.com/s/15mk0tNEhvhXsphovhXUQfw) (Password:1234). You can load these checkpoints for predictions instead of fine-tuning them yourself.
 
-## How to run on your own data
-- Pretraining stage: prepare the pretraining data in the same format as `data/pretrained.trn.txt.gz` and run `pretrain.sh`.
-- Linear projection stage: prepare the data in the same format as `data/targeted_BS_HCC_train_fold0.csv.gz` and run `linear_probe.sh`.
+
+
+## Dataset used in this study
+The  full dataset for fine-tune OncoChat is available at [GENIE](https://doi.org/10.7303/syn55234548).
+
+## LLM used in this study
+- Qwen-1.5 : https://huggingface.co/Qwen \
+- Mamba : https://huggingface.co/state-spaces
 
 
 

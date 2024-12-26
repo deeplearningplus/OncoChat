@@ -1,10 +1,10 @@
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
-torchrun --nproc_per_node=8 --master_port=20005 /opt/software/github/FastChat/fastchat/train/train_qwen_lixc.py \
+torchrun --nproc_per_node=8 --master_port=20005 train_qwen.py \
     --fsdp "full_shard auto_wrap" --fsdp_transformer_layer_cls_to_wrap 'Qwen2DecoderLayer' \
-    --model_name_or_path oncochat-qwen1.5-1.8b \
-    --data_path data/CKP_train.no_mutation_signature.json \
+    --model_name_or_path Qwen/Qwen1.5-0.5B-Chat \
+    --data_path data/CKP-train.json \
     --bf16 True \
-    --output_dir oncochat-qwen1.5-1.8b-v2 \
+    --output_dir oncochat-qwen1.5-0.5b-v2 \
     --num_train_epochs 3 \
     --per_device_train_batch_size 4 \
     --per_device_eval_batch_size 2 \
