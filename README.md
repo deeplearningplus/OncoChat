@@ -49,7 +49,7 @@ To execute this step, set the following parameters:\
 
 OncoChat is composed of nine different LLMs. The remaining eight models need to be trained following the same steps and used for prediction. The demo training files and prediction results are displayed in the `data` folder.
 
-- Get predictions from the fine-tuned model
+- Step3 : Get predictions from the fine-tuned model
 ```bash
 sh predict_mamba-130m.sh
 ```
