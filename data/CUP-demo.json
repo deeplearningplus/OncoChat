@@ -1,0 +1,292 @@
+[
+  {
+    "id": "GENIE-DFCI-006094-2729",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 66, Sex: Male\n\nTumor Mutation Load:\nRegular-mutated\n\nMutations:\nASXL1 p.N245S, BRCA2 p.E732D, BRCA2 p.V733F, DDR2 p.M609I, EPHA7 p.G448R, ERCC2 p.W189L, FAM46C p.E61*, FLT3 p.W872G, GLI3 p.D226H, ID3 p.V73I, KDR p.L901F, MEN1 p.T94S, MTOR p.G1407C, NTRK1 p.K482E, PALB2 p.D765H, PHF6 p.S247F, PTEN p.G156E, SMAD4 p.E417Q, STK11 p.X125_splice, TP53 p.Y234D\n\nWhat's the broad cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cancer of Unknown Primary"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Adenocarcinoma, NOS"
+      },
+      {
+        "from": "human",
+        "value": "What's the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Metastasis"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-006094-2729",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 66, Sex: Male\n\nTumor Mutation Load:\nRegular-mutated\n\nCopy Number Varations:\nATM: low-level gain, CARD11: low-level gain, CCND1: low-level gain, CRTC2: low-level gain, ETV1: low-level gain, MCL1: low-level gain, MEN1: low-level gain, PMS2: low-level gain, SDHAF2: low-level gain, SF1: low-level gain, TERT: low-level gain\n\nWhat's the broad tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cancer of Unknown Primary"
+      },
+      {
+        "from": "human",
+        "value": "What is the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Metastasis"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Adenocarcinoma, NOS"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-006094-2729",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 66, Sex: Male\n\nTumor Mutation Load:\nRegular-mutated\n\nMutation Signatures (SBS):\n37, 85, 9, 84, 7c, 22, 10a, 28, 34, 90, 17b, 17a\n\nWhat is the broad cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cancer of Unknown Primary"
+      },
+      {
+        "from": "human",
+        "value": "What is the detailed cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Adenocarcinoma, NOS"
+      },
+      {
+        "from": "human",
+        "value": "What's the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Metastasis"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-006094-2729",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 66, Sex: Male\n\nTumor Mutation Load:\nRegular-mutated\n\nMutations:\nASXL1 p.N245S, BRCA2 p.E732D, BRCA2 p.V733F, DDR2 p.M609I, EPHA7 p.G448R, ERCC2 p.W189L, FAM46C p.E61*, FLT3 p.W872G, GLI3 p.D226H, ID3 p.V73I, KDR p.L901F, MEN1 p.T94S, MTOR p.G1407C, NTRK1 p.K482E, PALB2 p.D765H, PHF6 p.S247F, PTEN p.G156E, SMAD4 p.E417Q, STK11 p.X125_splice, TP53 p.Y234D\n\nCopy Number Varations:\nATM: low-level gain, CARD11: low-level gain, CCND1: low-level gain, CRTC2: low-level gain, ETV1: low-level gain, MCL1: low-level gain, MEN1: low-level gain, PMS2: low-level gain, SDHAF2: low-level gain, SF1: low-level gain, TERT: low-level gain\n\nWhat's the broad tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cancer of Unknown Primary"
+      },
+      {
+        "from": "human",
+        "value": "What is the detailed tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Adenocarcinoma, NOS"
+      },
+      {
+        "from": "human",
+        "value": "What is the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Metastasis"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-006094-2729",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 66, Sex: Male\n\nTumor Mutation Load:\nRegular-mutated\n\nMutations:\nASXL1 p.N245S, BRCA2 p.E732D, BRCA2 p.V733F, DDR2 p.M609I, EPHA7 p.G448R, ERCC2 p.W189L, FAM46C p.E61*, FLT3 p.W872G, GLI3 p.D226H, ID3 p.V73I, KDR p.L901F, MEN1 p.T94S, MTOR p.G1407C, NTRK1 p.K482E, PALB2 p.D765H, PHF6 p.S247F, PTEN p.G156E, SMAD4 p.E417Q, STK11 p.X125_splice, TP53 p.Y234D\n\nMutation Signatures (SBS):\n37, 85, 9, 84, 7c, 22, 10a, 28, 34, 90, 17b, 17a\n\nCopy Number Varations:\nATM: low-level gain, CARD11: low-level gain, CCND1: low-level gain, CRTC2: low-level gain, ETV1: low-level gain, MCL1: low-level gain, MEN1: low-level gain, PMS2: low-level gain, SDHAF2: low-level gain, SF1: low-level gain, TERT: low-level gain\n\nWhat's the broad cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cancer of Unknown Primary"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Adenocarcinoma, NOS"
+      },
+      {
+        "from": "human",
+        "value": "What's the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Metastasis"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-550292-5164360",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 67, Sex: Male\n\nTumor Mutation Load:\nHyper-mutated\n\nMutations:\nARID1B p.E1445Rfs*36, ARID2 p.S1054F, ASXL1 p.E790*, ATM p.L2877F, BAP1 p.D225Y, BRD4 p.P859S, CBL p.S794C, CCND3 p.S219F, CDKN2B p.*52*, CDKN2B p.A120V, CHEK1 p.A306T, CSF3R p.D223H, DICER1 p.S208F, DIS3L2 p.S271*, DNMT3A p.E342Q, ELANE p.A131T, ERBB4 p.X572_splice, ERCC2 p.E606K, ETV6 p.X155_splice, FGFR3 p.S249C, FOXL2 p.P212A, IGF1R p.S975Y, ITK p.E64Q, KMT2A p.S1247L, KMT2D p.Q56*, KRAS p.E143*, MDM2 p.D303N, MEF2BNB-MEF2B p.S305F, MET p.E550Gfs*23, MGA p.G14R, MSH2 p.S185C, MSH6 p.S261C, NOTCH1 p.P1786T, NSD1 p.E216K, PIK3C2B p.S1493L, PIK3CA p.E542K, POLE p.D12H, POLE p.F1215S, POLE p.M1649I, PRKCI p.G261E, RAD51D p.X302_splice, RHBDF2 p.G9R, RNF43 p.S601P, SLC25A13 p.X584_splice, SLX4 p.X254_splice, SS18 p.S67C, TAL2 p.H32Y, TRAF7 p.R29T, TRIM37 p.S537F, TSHR p.E297Q, XPC p.Q893E, ZNRF3 p.C531Y, ZRSR2 p.R169*\n\nWhat's the broad cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cancer of Unknown Primary"
+      },
+      {
+        "from": "human",
+        "value": "What's the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Not Applicable or Heme"
+      },
+      {
+        "from": "human",
+        "value": "What is the detailed cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Squamous Cell Carcinoma, NOS"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-550292-5164360",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 67, Sex: Male\n\nTumor Mutation Load:\nHyper-mutated\n\nCopy Number Varations:\nAKT3: low-level gain, ALK: low-level gain, ARID2: low-level gain, AXIN2: low-level gain, AXL: low-level gain, BABAM1: low-level gain, BCL2L12: low-level gain, BLM: low-level gain, BRIP1: low-level gain, CALR: low-level gain, CBFA2T3: low-level gain, CBLB: low-level gain, CCND2: low-level gain, CD79B: low-level gain, CDC73: low-level gain, CIITA: low-level gain, CTCF: low-level gain, CUX1: low-level gain, DMC1: low-level gain, DNMT3A: low-level gain, EGLN1: low-level gain, ELANE: low-level gain, EME1: low-level gain, EP300: low-level gain, EPCAM: low-level gain, ERBB2: low-level gain, ERCC2: low-level gain, ERCC4: low-level gain, ERG: low-level gain, ETV1: low-level gain, ETV4: low-level gain, EXO1: low-level gain, FANCA: low-level gain, FGFR3: low-level gain, FH: low-level gain, GATA2: low-level gain, HNF1A: low-level gain, IDH2: low-level gain, ITK: low-level gain, KAT6A: low-level gain, KLF2: low-level gain, KRAS: low-level gain, MAF: low-level gain, MAPK1: low-level gain, MAX: low-level gain, MDM2: low-level gain, MET: low-level gain, MITF: low-level gain, MSH2: low-level gain, MSH6: low-level gain, MTA1: low-level gain, MYBL1: low-level gain, MYCN: low-level gain, NEIL2: low-level gain, NF1: low-level gain, NF2: low-level gain, NOTCH3: low-level gain, NPM1: low-level gain, NRG1: low-level gain, NTHL1: low-level gain, NTRK3: low-level gain, PMS2: low-level gain, POLB: low-level gain, POT1: low-level gain, PPM1D: low-level gain, PRKAR1A: low-level gain, PRKCI: low-level gain, PRKDC: low-level gain, PRSS1: low-level gain, PTPN14: low-level gain, RAC1: low-level gain, RAD21: low-level gain, RASA1: low-level gain, RECQL4: low-level gain, REL: low-level gain, RHOT1: low-level gain, RICTOR: low-level gain, SBDS: low-level gain, SDHC: low-level gain, SH2B3: low-level gain, SLC25A13: low-level gain, SLX4: low-level gain, SMARCA4: low-level gain, SMO: low-level gain, SOS1: low-level gain, SOX2: low-level gain, SOX9: low-level gain, SPOP: low-level gain, SRSF2: low-level gain, TDG: low-level gain, TERT: low-level gain, TP53BP1: low-level gain, TRAF3: low-level gain, TRAF7: low-level gain, TRIM37: low-level gain, TSC2: low-level gain, WRN: low-level gain, XRCC4: low-level gain, XRCC6: low-level gain, ZNRF3: low-level gain\n\nWhat's the broad cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cancer of Unknown Primary"
+      },
+      {
+        "from": "human",
+        "value": "What is the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Not Applicable or Heme"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Squamous Cell Carcinoma, NOS"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-550292-5164360",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 67, Sex: Male\n\nTumor Mutation Load:\nHyper-mutated\n\nStructural Varations:\nNone: AL365202.1 CDKN2A\n\nWhat's the broad tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cancer of Unknown Primary"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Squamous Cell Carcinoma, NOS"
+      },
+      {
+        "from": "human",
+        "value": "What is the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Not Applicable or Heme"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-550292-5164360",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 67, Sex: Male\n\nTumor Mutation Load:\nHyper-mutated\n\nMutation Signatures (SBS):\n8, 37, 12, 26, 21, 28, 88, 34, 17a, 22, 90, 17b\n\nWhat's the broad cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cancer of Unknown Primary"
+      },
+      {
+        "from": "human",
+        "value": "What's the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Not Applicable or Heme"
+      },
+      {
+        "from": "human",
+        "value": "What is the detailed cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Squamous Cell Carcinoma, NOS"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-550292-5164360",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 67, Sex: Male\n\nTumor Mutation Load:\nHyper-mutated\n\nMutations:\nARID1B p.E1445Rfs*36, ARID2 p.S1054F, ASXL1 p.E790*, ATM p.L2877F, BAP1 p.D225Y, BRD4 p.P859S, CBL p.S794C, CCND3 p.S219F, CDKN2B p.*52*, CDKN2B p.A120V, CHEK1 p.A306T, CSF3R p.D223H, DICER1 p.S208F, DIS3L2 p.S271*, DNMT3A p.E342Q, ELANE p.A131T, ERBB4 p.X572_splice, ERCC2 p.E606K, ETV6 p.X155_splice, FGFR3 p.S249C, FOXL2 p.P212A, IGF1R p.S975Y, ITK p.E64Q, KMT2A p.S1247L, KMT2D p.Q56*, KRAS p.E143*, MDM2 p.D303N, MEF2BNB-MEF2B p.S305F, MET p.E550Gfs*23, MGA p.G14R, MSH2 p.S185C, MSH6 p.S261C, NOTCH1 p.P1786T, NSD1 p.E216K, PIK3C2B p.S1493L, PIK3CA p.E542K, POLE p.D12H, POLE p.F1215S, POLE p.M1649I, PRKCI p.G261E, RAD51D p.X302_splice, RHBDF2 p.G9R, RNF43 p.S601P, SLC25A13 p.X584_splice, SLX4 p.X254_splice, SS18 p.S67C, TAL2 p.H32Y, TRAF7 p.R29T, TRIM37 p.S537F, TSHR p.E297Q, XPC p.Q893E, ZNRF3 p.C531Y, ZRSR2 p.R169*\n\nCopy Number Varations:\nAKT2: low-level gain, ALK: low-level gain, ARHGAP35: low-level gain, AXIN2: low-level gain, B2M: low-level gain, BCL2L12: low-level gain, BCL2L1: low-level gain, BRD4: low-level gain, BRIP1: low-level gain, CBFA2T3: low-level gain, CBLB: low-level gain, CCND2: low-level gain, CDC73: low-level gain, CDKN1B: low-level gain, CEBPA: low-level gain, CHEK2: low-level gain, CTCF: low-level gain, DDR2: low-level gain, DICER1: low-level gain, DNMT3A: low-level gain, EGFR: low-level gain, EME1: low-level gain, ERCC2: low-level gain, ERG: low-level gain, ETV6: low-level gain, EWSR1: low-level gain, EXT1: low-level gain, EZH2: low-level gain, FLT4: low-level gain, GATA2: low-level gain, HOXB13: low-level gain, IDH2: low-level gain, IKZF1: low-level gain, IL7R: low-level gain, JAK3: low-level gain, KLF2: low-level gain, KMT2D: low-level gain, KRAS: low-level gain, MBD4: low-level gain, MDM2: low-level gain, MECOM: low-level gain, MET: low-level gain, MITF: low-level gain, MLH3: low-level gain, MTA1: low-level gain, MYC: low-level gain, MYCN: low-level gain, NEIL2: low-level gain, NFKBIA: low-level gain, NKX3-1: low-level gain, NPM1: low-level gain, NRG1: low-level gain, NSD1: low-level gain, NTHL1: low-level gain, NTRK3: low-level gain, PALB2: low-level gain, PAXIP1: low-level gain, PDGFRB: low-level gain, PIK3C2B: low-level gain, PIK3CA: low-level gain, PIK3R1: low-level gain, PML: low-level gain, PMS2: low-level gain, PNKP: low-level gain, POLB: low-level gain, POT1: low-level gain, PPM1D: low-level gain, PPP2R1A: low-level gain, PRKDC: low-level gain, PRSS1: low-level gain, RECQL4: low-level gain, RHEB: low-level gain, RHOT1: low-level gain, RSPO2: low-level gain, RUNX1T1: low-level gain, SBDS: low-level gain, SDHA: low-level gain, SDHC: low-level gain, SERPINA1: low-level gain, SH2B3: low-level gain, SLC25A13: low-level gain, SLX4: low-level gain, SMARCA4: low-level gain, SOCS1: low-level gain, SOS1: low-level gain, SOX2: low-level gain, SOX9: low-level gain, SPOP: low-level gain, STAT3: low-level gain, STK11: low-level gain, TDG: low-level gain, TERC: low-level gain, TLX3: low-level gain, TOPBP1: low-level gain, TP53BP1: low-level gain, TRAF7: low-level gain, TRIM37: low-level gain, UIMC1: low-level gain, XRCC1: low-level gain, XRCC3: low-level gain\n\nWhat's the broad tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cancer of Unknown Primary"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Squamous Cell Carcinoma, NOS"
+      },
+      {
+        "from": "human",
+        "value": "What is the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Not Applicable or Heme"
+      }
+    ]
+  }
+]

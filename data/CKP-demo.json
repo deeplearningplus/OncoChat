@@ -1,0 +1,292 @@
+[
+  {
+    "id": "GENIE-DFCI-132049-4786246",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 36, Sex: Female\n\nTumor Mutation Load:\nRegular-mutated\n\nMutations:\nCHEK2 p.X514_splice, FAT1 p.R1070*, FGFR2 p.X208_splice, FLT3 p.R834P, GNAS-AS1 nan, KMT2D p.X4751_splice, MSH6 p.R1024Q, NOTCH2 p.N2260K, PAXIP1 p.S322C, PDGFRB p.G126D, POLQ p.A1590T, PTPN14 p.X148_splice, SLX4 p.N138K, TMPRSS2 p.Y152*, TP53 p.G105_G108del, XRCC1 p.R148W\n\nWhat's the broad tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Cancer"
+      },
+      {
+        "from": "human",
+        "value": "What is the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Primary"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Invasive Ductal Carcinoma"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-132049-4786246",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 36, Sex: Female\n\nTumor Mutation Load:\nRegular-mutated\n\nCopy Number Varations:\nAKT1: low-level gain, AKT3: low-level gain, AURKA: low-level gain, BCL11B: low-level gain, BCL2: single-copy loss, BCL2L1: single-copy loss, BCL6: single-copy loss, BRAF: low-level gain, CALR: single-copy loss, CBLB: single-copy loss, CDC73: low-level gain, CDH4: low-level gain, CDKN1A: low-level gain, CUX1: low-level gain, DDB2: low-level gain, DDR2: low-level gain, DOCK8: low-level gain, EGFR: low-level gain, EGLN1: low-level gain, ERG: low-level gain, ESR1: low-level gain, EXO1: low-level gain, EXT2: low-level gain, FANCD2: low-level gain, FANCE: low-level gain, FANCL: low-level gain, FGFR3: single-copy loss, FH: low-level gain, GATA2: single-copy loss, GATA4: single-copy loss, GATA6: single-copy loss, GBA: low-level gain, GNAS: low-level gain, HELQ: single-copy loss, KDM5A: low-level gain, LMO2: low-level gain, MCM8: single-copy loss, MDM4: low-level gain, MET: low-level gain, MITF: single-copy loss, MTA1: low-level gain, MYB: low-level gain, NEIL2: single-copy loss, NFKBIZ: single-copy loss, NKX3-1: single-copy loss, NRG1: single-copy loss, NTRK1: low-level gain, OGG1: low-level gain, PAX5: low-level gain, PHF6: low-level gain, PHOX2B: single-copy loss, PIK3C2B: low-level gain, PIM1: low-level gain, POLQ: single-copy loss, POT1: low-level gain, PRSS1: low-level gain, PTK2B: single-copy loss, PTPN14: low-level gain, RAF1: low-level gain, RBBP8: single-copy loss, REL: low-level gain, RHOH: single-copy loss, RINT1: low-level gain, RIT1: low-level gain, RNF8: low-level gain, RUNX1: low-level gain, SDHC: low-level gain, SETBP1: single-copy loss, SLC34A2: single-copy loss, SMAD2: single-copy loss, SMAD4: single-copy loss, SMO: low-level gain, SS18: single-copy loss, TAZ: low-level gain, TET2: single-copy loss, TMPRSS2: low-level gain, TNFAIP3: low-level gain, TRAF3: low-level gain, U2AF1: low-level gain, UBE2T: low-level gain, WRN: single-copy loss, WT1: low-level gain, XPO1: low-level gain, XRCC3: low-level gain\n\nWhat is the broad tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Cancer"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Invasive Ductal Carcinoma"
+      },
+      {
+        "from": "human",
+        "value": "What's the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Primary"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-132049-4786246",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 36, Sex: Female\n\nTumor Mutation Load:\nRegular-mutated\n\nStructural Varations:\nNone: PTPN14 INTERGENIC\n\nWhat's the broad cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Cancer"
+      },
+      {
+        "from": "human",
+        "value": "What's the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Primary"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Invasive Ductal Carcinoma"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-132049-4786246",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 36, Sex: Female\n\nTumor Mutation Load:\nRegular-mutated\n\nMutation Signatures (SBS):\n21, 34, 36, 8, 4, 88, 38, 7c, 28, 90, 17a, 17b\n\nWhat's the broad cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Cancer"
+      },
+      {
+        "from": "human",
+        "value": "What is the detailed tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Invasive Ductal Carcinoma"
+      },
+      {
+        "from": "human",
+        "value": "What is the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Primary"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-132049-4786246",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 36, Sex: Female\n\nTumor Mutation Load:\nRegular-mutated\n\nMutations:\nCHEK2 p.X514_splice, FAT1 p.R1070*, FGFR2 p.X208_splice, FLT3 p.R834P, GNAS-AS1 nan, KMT2D p.X4751_splice, MSH6 p.R1024Q, NOTCH2 p.N2260K, PAXIP1 p.S322C, PDGFRB p.G126D, POLQ p.A1590T, PTPN14 p.X148_splice, SLX4 p.N138K, TMPRSS2 p.Y152*, TP53 p.G105_G108del, XRCC1 p.R148W\n\nCopy Number Varations:\nAKT1: low-level gain, AKT3: low-level gain, AURKA: low-level gain, BCL11B: low-level gain, BCL2: single-copy loss, BCL2L1: single-copy loss, BCL6: single-copy loss, BRAF: low-level gain, CALR: single-copy loss, CBLB: single-copy loss, CDC73: low-level gain, CDH4: low-level gain, CDKN1A: low-level gain, CUX1: low-level gain, DDB2: low-level gain, DDR2: low-level gain, DOCK8: low-level gain, EGFR: low-level gain, EGLN1: low-level gain, ERG: low-level gain, ESR1: low-level gain, EXO1: low-level gain, EXT2: low-level gain, FANCD2: low-level gain, FANCE: low-level gain, FANCL: low-level gain, FGFR3: single-copy loss, FH: low-level gain, GATA2: single-copy loss, GATA4: single-copy loss, GATA6: single-copy loss, GBA: low-level gain, GNAS: low-level gain, HELQ: single-copy loss, KDM5A: low-level gain, LMO2: low-level gain, MCM8: single-copy loss, MDM4: low-level gain, MET: low-level gain, MITF: single-copy loss, MTA1: low-level gain, MYB: low-level gain, NEIL2: single-copy loss, NFKBIZ: single-copy loss, NKX3-1: single-copy loss, NRG1: single-copy loss, NTRK1: low-level gain, OGG1: low-level gain, PAX5: low-level gain, PHF6: low-level gain, PHOX2B: single-copy loss, PIK3C2B: low-level gain, PIM1: low-level gain, POLQ: single-copy loss, POT1: low-level gain, PRSS1: low-level gain, PTK2B: single-copy loss, PTPN14: low-level gain, RAF1: low-level gain, RBBP8: single-copy loss, REL: low-level gain, RHOH: single-copy loss, RINT1: low-level gain, RIT1: low-level gain, RNF8: low-level gain, RUNX1: low-level gain, SDHC: low-level gain, SETBP1: single-copy loss, SLC34A2: single-copy loss, SMAD2: single-copy loss, SMAD4: single-copy loss, SMO: low-level gain, SS18: single-copy loss, TAZ: low-level gain, TET2: single-copy loss, TMPRSS2: low-level gain, TNFAIP3: low-level gain, TRAF3: low-level gain, U2AF1: low-level gain, UBE2T: low-level gain, WRN: single-copy loss, WT1: low-level gain, XPO1: low-level gain, XRCC3: low-level gain\n\nWhat's the broad cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Cancer"
+      },
+      {
+        "from": "human",
+        "value": "What's the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Primary"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Invasive Ductal Carcinoma"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-132049-4786246",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 36, Sex: Female\n\nTumor Mutation Load:\nRegular-mutated\n\nMutations:\nCHEK2 p.X514_splice, FAT1 p.R1070*, FGFR2 p.X208_splice, FLT3 p.R834P, GNAS-AS1 nan, KMT2D p.X4751_splice, MSH6 p.R1024Q, NOTCH2 p.N2260K, PAXIP1 p.S322C, PDGFRB p.G126D, POLQ p.A1590T, PTPN14 p.X148_splice, SLX4 p.N138K, TMPRSS2 p.Y152*, TP53 p.G105_G108del, XRCC1 p.R148W\n\nMutation Signatures (SBS):\n21, 34, 36, 8, 4, 88, 38, 7c, 28, 90, 17a, 17b\n\nCopy Number Varations:\nAKT1: low-level gain, AKT3: low-level gain, AURKA: low-level gain, BCL11B: low-level gain, BCL2: single-copy loss, BCL2L1: single-copy loss, BCL6: single-copy loss, BRAF: low-level gain, CALR: single-copy loss, CBLB: single-copy loss, CDC73: low-level gain, CDH4: low-level gain, CDKN1A: low-level gain, CUX1: low-level gain, DDB2: low-level gain, DDR2: low-level gain, DOCK8: low-level gain, EGFR: low-level gain, EGLN1: low-level gain, ERG: low-level gain, ESR1: low-level gain, EXO1: low-level gain, EXT2: low-level gain, FANCD2: low-level gain, FANCE: low-level gain, FANCL: low-level gain, FGFR3: single-copy loss, FH: low-level gain, GATA2: single-copy loss, GATA4: single-copy loss, GATA6: single-copy loss, GBA: low-level gain, GNAS: low-level gain, HELQ: single-copy loss, KDM5A: low-level gain, LMO2: low-level gain, MCM8: single-copy loss, MDM4: low-level gain, MET: low-level gain, MITF: single-copy loss, MTA1: low-level gain, MYB: low-level gain, NEIL2: single-copy loss, NFKBIZ: single-copy loss, NKX3-1: single-copy loss, NRG1: single-copy loss, NTRK1: low-level gain, OGG1: low-level gain, PAX5: low-level gain, PHF6: low-level gain, PHOX2B: single-copy loss, PIK3C2B: low-level gain, PIM1: low-level gain, POLQ: single-copy loss, POT1: low-level gain, PRSS1: low-level gain, PTK2B: single-copy loss, PTPN14: low-level gain, RAF1: low-level gain, RBBP8: single-copy loss, REL: low-level gain, RHOH: single-copy loss, RINT1: low-level gain, RIT1: low-level gain, RNF8: low-level gain, RUNX1: low-level gain, SDHC: low-level gain, SETBP1: single-copy loss, SLC34A2: single-copy loss, SMAD2: single-copy loss, SMAD4: single-copy loss, SMO: low-level gain, SS18: single-copy loss, TAZ: low-level gain, TET2: single-copy loss, TMPRSS2: low-level gain, TNFAIP3: low-level gain, TRAF3: low-level gain, U2AF1: low-level gain, UBE2T: low-level gain, WRN: single-copy loss, WT1: low-level gain, XPO1: low-level gain, XRCC3: low-level gain\n\nWhat's the broad cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Cancer"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Invasive Ductal Carcinoma"
+      },
+      {
+        "from": "human",
+        "value": "What is the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Primary"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-132049-4786246",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 36, Sex: Female\n\nTumor Mutation Load:\nRegular-mutated\n\nMutations:\nCHEK2 p.X514_splice, FAT1 p.R1070*, FGFR2 p.X208_splice, FLT3 p.R834P, GNAS-AS1 nan, KMT2D p.X4751_splice, MSH6 p.R1024Q, NOTCH2 p.N2260K, PAXIP1 p.S322C, PDGFRB p.G126D, POLQ p.A1590T, PTPN14 p.X148_splice, SLX4 p.N138K, TMPRSS2 p.Y152*, TP53 p.G105_G108del, XRCC1 p.R148W\n\nCopy Number Varations:\nAKT1: low-level gain, AKT3: low-level gain, AURKA: low-level gain, BCL11B: low-level gain, BCL2: single-copy loss, BCL2L1: single-copy loss, BCL6: single-copy loss, BRAF: low-level gain, CALR: single-copy loss, CBLB: single-copy loss, CDC73: low-level gain, CDH4: low-level gain, CDKN1A: low-level gain, CUX1: low-level gain, DDB2: low-level gain, DDR2: low-level gain, DOCK8: low-level gain, EGFR: low-level gain, EGLN1: low-level gain, ERG: low-level gain, ESR1: low-level gain, EXO1: low-level gain, EXT2: low-level gain, FANCD2: low-level gain, FANCE: low-level gain, FANCL: low-level gain, FGFR3: single-copy loss, FH: low-level gain, GATA2: single-copy loss, GATA4: single-copy loss, GATA6: single-copy loss, GBA: low-level gain, GNAS: low-level gain, HELQ: single-copy loss, KDM5A: low-level gain, LMO2: low-level gain, MCM8: single-copy loss, MDM4: low-level gain, MET: low-level gain, MITF: single-copy loss, MTA1: low-level gain, MYB: low-level gain, NEIL2: single-copy loss, NFKBIZ: single-copy loss, NKX3-1: single-copy loss, NRG1: single-copy loss, NTRK1: low-level gain, OGG1: low-level gain, PAX5: low-level gain, PHF6: low-level gain, PHOX2B: single-copy loss, PIK3C2B: low-level gain, PIM1: low-level gain, POLQ: single-copy loss, POT1: low-level gain, PRSS1: low-level gain, PTK2B: single-copy loss, PTPN14: low-level gain, RAF1: low-level gain, RBBP8: single-copy loss, REL: low-level gain, RHOH: single-copy loss, RINT1: low-level gain, RIT1: low-level gain, RNF8: low-level gain, RUNX1: low-level gain, SDHC: low-level gain, SETBP1: single-copy loss, SLC34A2: single-copy loss, SMAD2: single-copy loss, SMAD4: single-copy loss, SMO: low-level gain, SS18: single-copy loss, TAZ: low-level gain, TET2: single-copy loss, TMPRSS2: low-level gain, TNFAIP3: low-level gain, TRAF3: low-level gain, U2AF1: low-level gain, UBE2T: low-level gain, WRN: single-copy loss, WT1: low-level gain, XPO1: low-level gain, XRCC3: low-level gain\n\nStructural Varations:\nNone: PTPN14 INTERGENIC\n\nWhat is the broad cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Cancer"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Invasive Ductal Carcinoma"
+      },
+      {
+        "from": "human",
+        "value": "What is the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Primary"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-DFCI-132049-4786246",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 36, Sex: Female\n\nTumor Mutation Load:\nRegular-mutated\n\nMutations:\nCHEK2 p.X514_splice, FAT1 p.R1070*, FGFR2 p.X208_splice, FLT3 p.R834P, GNAS-AS1 nan, KMT2D p.X4751_splice, MSH6 p.R1024Q, NOTCH2 p.N2260K, PAXIP1 p.S322C, PDGFRB p.G126D, POLQ p.A1590T, PTPN14 p.X148_splice, SLX4 p.N138K, TMPRSS2 p.Y152*, TP53 p.G105_G108del, XRCC1 p.R148W\n\nMutation Signatures (SBS):\n21, 34, 36, 8, 4, 88, 38, 7c, 28, 90, 17a, 17b\n\nCopy Number Varations:\nAKT1: low-level gain, AKT3: low-level gain, AURKA: low-level gain, BCL11B: low-level gain, BCL2: single-copy loss, BCL2L1: single-copy loss, BCL6: single-copy loss, BRAF: low-level gain, CALR: single-copy loss, CBLB: single-copy loss, CDC73: low-level gain, CDH4: low-level gain, CDKN1A: low-level gain, CUX1: low-level gain, DDB2: low-level gain, DDR2: low-level gain, DOCK8: low-level gain, EGFR: low-level gain, EGLN1: low-level gain, ERG: low-level gain, ESR1: low-level gain, EXO1: low-level gain, EXT2: low-level gain, FANCD2: low-level gain, FANCE: low-level gain, FANCL: low-level gain, FGFR3: single-copy loss, FH: low-level gain, GATA2: single-copy loss, GATA4: single-copy loss, GATA6: single-copy loss, GBA: low-level gain, GNAS: low-level gain, HELQ: single-copy loss, KDM5A: low-level gain, LMO2: low-level gain, MCM8: single-copy loss, MDM4: low-level gain, MET: low-level gain, MITF: single-copy loss, MTA1: low-level gain, MYB: low-level gain, NEIL2: single-copy loss, NFKBIZ: single-copy loss, NKX3-1: single-copy loss, NRG1: single-copy loss, NTRK1: low-level gain, OGG1: low-level gain, PAX5: low-level gain, PHF6: low-level gain, PHOX2B: single-copy loss, PIK3C2B: low-level gain, PIM1: low-level gain, POLQ: single-copy loss, POT1: low-level gain, PRSS1: low-level gain, PTK2B: single-copy loss, PTPN14: low-level gain, RAF1: low-level gain, RBBP8: single-copy loss, REL: low-level gain, RHOH: single-copy loss, RINT1: low-level gain, RIT1: low-level gain, RNF8: low-level gain, RUNX1: low-level gain, SDHC: low-level gain, SETBP1: single-copy loss, SLC34A2: single-copy loss, SMAD2: single-copy loss, SMAD4: single-copy loss, SMO: low-level gain, SS18: single-copy loss, TAZ: low-level gain, TET2: single-copy loss, TMPRSS2: low-level gain, TNFAIP3: low-level gain, TRAF3: low-level gain, U2AF1: low-level gain, UBE2T: low-level gain, WRN: single-copy loss, WT1: low-level gain, XPO1: low-level gain, XRCC3: low-level gain\n\nStructural Varations:\nNone: PTPN14 INTERGENIC\n\nWhat is the broad cancer origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Cancer"
+      },
+      {
+        "from": "human",
+        "value": "What is the detailed cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Breast Invasive Ductal Carcinoma"
+      },
+      {
+        "from": "human",
+        "value": "What's the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Primary"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-MSK-P-0055610-T02-IM6",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 79, Sex: Male\n\nTumor Mutation Load:\nRegular-mutated\n\nMutations:\nBRCA1 p.S578Lfs*4, EP300 p.L417F, JAK2 p.C75Y, KEAP1 p.P322L, KRAS p.G12D, NOTCH3 p.L1419_S1447del, RBM10 p.G470*, SESN3 p.X48_splice, SMARCA4 p.N1037Y, STK11 p.P281Rfs*6, TP53BP1 p.G5R\n\nWhat's the broad cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Non-Small Cell Lung Cancer"
+      },
+      {
+        "from": "human",
+        "value": "What is the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Primary"
+      },
+      {
+        "from": "human",
+        "value": "What is the detailed cancer type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Lung Adenosquamous Carcinoma"
+      }
+    ]
+  },
+  {
+    "id": "GENIE-MSK-P-0055610-T02-IM6",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Clinical features:\nAge: 79, Sex: Male\n\nTumor Mutation Load:\nRegular-mutated\n\nCopy Number Varations:\nCDKN2A: deep loss, CDKN2B: deep loss, ELF3: high-level amplification\n\nWhat's the broad tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Non-Small Cell Lung Cancer"
+      },
+      {
+        "from": "human",
+        "value": "What's the sample type?"
+      },
+      {
+        "from": "gpt",
+        "value": "Primary"
+      },
+      {
+        "from": "human",
+        "value": "What's the detailed tumor origin?"
+      },
+      {
+        "from": "gpt",
+        "value": "Lung Adenosquamous Carcinoma"
+      }
+    ]
+  }
+]

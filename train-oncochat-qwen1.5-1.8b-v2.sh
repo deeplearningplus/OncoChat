@@ -1,0 +1,27 @@
+export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+torchrun --nproc_per_node=8 --master_port=20005 /opt/software/github/FastChat/fastchat/train/train_qwen_lixc.py \
+    --fsdp "full_shard auto_wrap" --fsdp_transformer_layer_cls_to_wrap 'Qwen2DecoderLayer' \
+    --model_name_or_path oncochat-qwen1.5-1.8b \
+    --data_path data/CKP_train.no_mutation_signature.json \
+    --bf16 True \
+    --output_dir oncochat-qwen1.5-1.8b-v2 \
+    --num_train_epochs 3 \
+    --per_device_train_batch_size 4 \
+    --per_device_eval_batch_size 2 \
+    --gradient_accumulation_steps 8 \
+    --evaluation_strategy "no" \
+    --save_strategy "steps" \
+    --save_steps 1000 \
+    --save_total_limit 1 \
+    --learning_rate 2e-5 \
+    --weight_decay 0. \
+    --warmup_ratio 0.03 \
+    --lr_scheduler_type "cosine" \
+    --logging_steps 1 \
+    --tf32 True \
+    --gradient_checkpointing True \
+    --model_max_length 4096 \
+    --lazy_preprocess True
+    ##--dataloader_persistent_workers True
+    ##--dataloader_num_workers 1 \
+    ##--model_name_or_path /data/ai/database/mymodels/Qwen1.5-0.5B-Chat \
