@@ -66,7 +66,7 @@ Fine-tuned models are available for download from [BaiduDisk](https://pan.baidu.
 The  full dataset for fine-tune OncoChat is available at [GENIE](https://doi.org/10.7303/syn55234548).
 
 ## LLM used in this study
-- Qwen-1.5 : https://huggingface.co/Qwen \
+- Qwen-1.5 : https://huggingface.co/Qwen 
 - Mamba : https://huggingface.co/state-spaces
 
 
