@@ -1,0 +1,159 @@
+RANDID,predict_labels,FIRST_PALLIATIVE_TREATMENT,Concordance_Status,Reason,OS,Sex,SUSPECTED_PATH_PRIMARY_SITE_1,CNA burden,Mutational burden,Metastatic_or_recurrence_sites,Histology,Survival_time,entry_time
+DFCI_301316,Endometrial Cancer,ATEZOLIZUMAB/CARBOPLATIN/ETOPOSIDE,Not Concordant,This combination is not standard for endometrial cancer (typically carboplatin/paclitaxel is used).,1,FEMALE,Gynecologic,0.543,0.02,others,others,5.53,3.033
+DFCI_312599,Pancreatic Cancer,FOLFIRINOX,Concordant,FOLFIRINOX is a widely accepted first‐line regimen for metastatic pancreatic cancer.,1,MALE,Intrahepatic cholangiocarcinoma,0.058,0.02,others,adenocarcinoma,1.03,0.833
+DFCI_913152,Pancreatic Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Not Concordant,FOLFOX is not the standard first‐line therapy for pancreatic cancer.,1,MALE,Pancreatic,0.157,0.02,others,others,8.154,2.767
+DFCI_992987,Esophagogastric Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Concordant,FOLFOX is an accepted regimen for esophagogastric cancers.,0,MALE,Cholangiocarcinoma,0.2,0.022,others,adenocarcinoma,10.656,0.833
+DFCI_585098,Pancreatic Cancer,OLAPARIB,Not Concordant,Olaparib is generally reserved for BRCA‐mutated cases and is not standard first‐line therapy.,1,MALE,Pancreaticobiliary,0.283,0.013,others,adenocarcinoma,7.803,0.0
+DFCI_128867,Non-Small Cell Lung Cancer,PEMETREXED/CARBOPLATIN,Concordant,A platinum doublet with pemetrexed is standard for NSCLC.,1,FEMALE,Upper GI,0.422,0.043,brain,adenocarcinoma,6.755,0.0
+DFCI_915718,Ovarian Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Not Concordant,Standard ovarian cancer treatment is carboplatin/paclitaxel.,1,FEMALE,Lower GI,0.002,0.022,others,adenocarcinoma,2.734,0.533
+DFCI_561768,Colorectal Cancer,GEMCITABINE/CISPLATIN,Not Concordant,Colorectal cancer is typically managed with FOLFOX or FOLFIRI regimens.,1,MALE,Colorectal,0.204,0.022,bone,adenocarcinoma,5.473,1.367
+DFCI_894325,Melanoma,PEMBROLIZUMAB,Concordant,Pembrolizumab is a standard immunotherapy option for advanced melanoma.,0,FEMALE,SCLC,0.318,0.026,others,others,1.664,0.0
+DFCI_137043,Glioma,DOCETAXEL/CISPLATIN,Not Concordant,This regimen is not used in standard glioma management.,0,MALE,Metastatic mucoepidermoid carcinoma,0.128,0.175,brain,others,44.012,3.933
+DFCI_796555,Non-Small Cell Lung Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Not Concordant,FOLFOX is not a standard regimen in NSCLC.,0,MALE,Intestinal ,0.159,0.024,others,adenocarcinoma,1.989,1.267
+DFCI_203505,Non-Small Cell Lung Cancer,PEMBROLIZUMAB,Concordant,Pembrolizumab is approved as first‐line therapy in selected NSCLC cases.,1,FEMALE,Lung,0.02,0.039,soft_tissue,squamous_cell,4.421,1.3
+DFCI_263659,Non-Small Cell Lung Cancer,CARBOPLATIN,Not Concordant,Monotherapy with carboplatin is not standard for NSCLC.,0,FEMALE,Endometrial,0.045,0.015,others,adenocarcinoma,2.982,0.0
+DFCI_333216,Breast Cancer,TOPOTECAN,Not Concordant,Topotecan is not a recognized first‐line treatment for breast cancer.,1,FEMALE,Ovarian,0.246,0.018,others,others,2.516,0.0
+DFCI_995685,Non-Small Cell Lung Cancer,CARBOPLATIN/PACLITAXEL,Concordant,Carboplatin/paclitaxel is a standard regimen for NSCLC.,1,FEMALE,,0.031,0.011,bone,others,15.172,1.9
+DFCI_445206,Breast Cancer,PEMBROLIZUMAB,Not Concordant,Pembrolizumab is not typically used as first‐line monotherapy in breast cancer.,1,FEMALE,Breast,0.383,0.03,others,adenocarcinoma,1.274,0.0
+DFCI_972123,Bladder Cancer,GEMCITABINE/CISPLATIN,Concordant,Gemcitabine/cisplatin is a standard treatment for advanced bladder cancer.,0,FEMALE,Urothelial,0.372,0.041,others,others,2.901,0.667
+DFCI_185112,Gastrointestinal Stromal Tumor,PEMBROLIZUMAB,Not Concordant,"For GIST, first‐line treatment is imatinib rather than pembrolizumab.",1,MALE,Intrahepatic cholangiocarcinoma,0.344,0.022,others,others,11.494,0.0
+DFCI_830725,Glioma,VISMODEGIB,Not Concordant,Vismodegib is not used in standard glioma treatment.,0,MALE,,0.33,0.098,soft_tissue,others,21.879,9.1
+DFCI_394575,Pancreatic Cancer,CAPECITABINE/TEMOZOLOMIDE,Not Concordant,This regimen is not recognized as first‐line therapy for pancreatic cancer.,0,MALE,Neuroendocrine,0.056,0.02,others,neuroendocrine,20.804,0.6
+DFCI_602043,Colorectal Cancer,PEMBROLIZUMAB/PEMETREXED/CARBOPLATIN,Not Concordant,This combination is not a recognized first‐line regimen for colorectal cancer.,0,FEMALE,,0.164,0.05,others,others,39.521,0.067
+DFCI_943791,Non-Small Cell Lung Cancer,CARBOPLATIN/PACLITAXEL,Concordant,Carboplatin/paclitaxel is an accepted first‐line option in NSCLC.,0,FEMALE,Neuroendocrine,0.138,0.022,brain,neuroendocrine,60.0,0.3
+DFCI_188822,Pancreatic Cancer,GEMCITABINE/CISPLATIN,Not Concordant,Standard pancreatic regimens are FOLFIRINOX or nab-paclitaxel/gemcitabine.,1,FEMALE,Cholangiocarcinoma,0.101,0.02,others,adenocarcinoma,4.903,2.833
+DFCI_234443,Pancreatic Cancer,ETOPOSIDE/CISPLATIN,Not Concordant,Platinum-etoposide combinations are not standard for pancreatic cancer.,1,MALE,,0.108,0.024,others,others,9.216,1.233
+DFCI_262628,Non-Small Cell Lung Cancer,EVEROLIMUS,Not Concordant,Everolimus is not used as first‐line therapy in NSCLC.,1,MALE,Atypical carcinoid,0.161,0.017,others,neuroendocrine,7.504,3.2
+DFCI_134324,Colorectal Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Concordant,FOLFOX is a standard regimen for colorectal cancer.,1,FEMALE,Pancreaticobiliary,0.066,0.038,soft_tissue,adenocarcinoma,13.174,2.333
+DFCI_401033,Pancreatic Cancer,ETOPOSIDE/CARBOPLATIN,Not Concordant,This combination is not a recognized first‐line treatment for pancreatic cancer.,1,MALE,Lung ,0.148,0.05,others,others,23.364,0.433
+DFCI_467704,Endometrial Cancer,FOLFIRINOX,Not Concordant,"FOLFIRINOX is specific for pancreatic cancer, not endometrial cancer.",0,FEMALE,Cholangiocarcinoma,0.489,0.039,others,adenocarcinoma,45.738,0.633
+DFCI_119004,Prostate Cancer,PEMBROLIZUMAB,Not Concordant,Pembrolizumab is not a standard first‐line option in prostate cancer.,0,MALE,Basal cell carcinoma,0.119,0.048,others,others,0.499,0.0
+DFCI_267814,Glioma,CETUXIMAB/CARBOPLATIN/FLUOROURACIL,Not Concordant,This regimen is not used in the management of glioma.,1,MALE,,0.536,0.013,bone,others,1.884,0.8
+DFCI_587656,Prostate Cancer,ETOPOSIDE/IFOSFAMIDE/CISPLATIN,Not Concordant,Not a recognized first‐line regimen for prostate cancer.,0,MALE,Urothelial,0.193,0.05,brain,others,6.586,1.067
+DFCI_680773,Prostate Cancer,GEMCITABINE/CISPLATIN,Not Concordant,This combination is not standard in prostate cancer.,0,MALE,,0.119,0.111,others,adenocarcinoma,11.446,3.2
+DFCI_693715,Gastrointestinal Stromal Tumor,NIVOLUMAB,Not Concordant,Immunotherapy is not standard first‐line treatment for GIST.,0,MALE,,0.415,0.024,others,squamous_cell,28.799,0.0
+DFCI_961448,Non-Small Cell Lung Cancer,ETOPOSIDE/CISPLATIN,Not Concordant,Etoposide/cisplatin is typically reserved for small cell lung cancer.,1,MALE,Lung (NSCLC),0.132,0.044,others,others,3.878,2.367
+DFCI_490619,Breast Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Not Concordant,This regimen is not standard for breast cancer.,1,FEMALE,GI tract,0.011,0.013,others,adenocarcinoma,8.199,3.567
+DFCI_303489,Gastrointestinal Neuroendocrine Tumor,OCTREOTIDE,Concordant,Octreotide is the standard treatment for neuroendocrine tumors.,0,MALE,Small intestine,0.11,0.006,others,neuroendocrine,45.641,2.967
+DFCI_443644,Thyroid Cancer,PEMBROLIZUMAB,Not Concordant,Immunotherapy is not a standard first‐line option for thyroid cancer.,1,FEMALE,Sarcomatoid carcinoma,0.07,0.141,others,others,6.072,0.0
+DFCI_296207,Non-Small Cell Lung Cancer,PEMETREXED/CARBOPLATIN,Concordant,Platinum doublet with pemetrexed is standard in NSCLC.,0,FEMALE,Lung,0.029,0.019,brain,adenocarcinoma,5.274,0.0
+DFCI_566761,Esophagogastric Cancer,CAPECITABINE/OXALIPLATIN,Concordant,Capecitabine/oxaliplatin (XELOX) is an accepted regimen for esophagogastric cancers.,1,MALE,,0.023,0.029,others,squamous_cell,4.162,1.567
+DFCI_880777,Non-Small Cell Lung Cancer,ETOPOSIDE/CISPLATIN,Not Concordant,Not standard for NSCLC.,0,FEMALE,,0.307,0.033,others,neuroendocrine,27.345,0.867
+DFCI_383021,Non-Small Cell Lung Cancer,GEMCITABINE/CISPLATIN,Concordant,Gemcitabine/cisplatin is an acceptable option in certain NSCLC settings.,1,FEMALE,Pancreaticobiliary ,0.045,0.022,others,others,1.331,1.2
+DFCI_793390,Gastrointestinal Neuroendocrine Tumor,ETOPOSIDE/CARBOPLATIN,Not Concordant,"Platinum-etoposide is reserved for high-grade neuroendocrine carcinomas, not typical NETs.",0,MALE,Lung,0.164,0.013,others,neuroendocrine,1.288,0.467
+DFCI_892413,Ovarian Cancer,CARBOPLATIN/PACLITAXEL,Concordant,This is the standard first‐line regimen for ovarian cancer.,0,FEMALE,Mullerian (ovarian),0.442,0.015,others,adenocarcinoma,45.65,0.0
+DFCI_453940,Non-Small Cell Lung Cancer,CEMIPLIMAB,Not Concordant,Cemiplimab is not a standard first‐line treatment for NSCLC.,0,MALE,,0.522,0.124,bone,others,26.842,0.167
+DFCI_938119,Non-Small Cell Lung Cancer,GEMCITABINE/CISPLATIN,Concordant,An acceptable regimen for NSCLC in selected settings.,1,MALE,Neuroendocrine carcinoma,0.413,0.03,others,others,15.929,0.0
+DFCI_173526,Pancreatic Cancer,FOLFIRINOX,Concordant,FOLFIRINOX is a standard first‐line treatment for pancreatic cancer.,1,FEMALE,Upper GI,0.045,0.017,others,adenocarcinoma,4.449,0.967
+DFCI_190104,Esophagogastric Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Concordant,FOLFOX is widely used for esophagogastric cancers.,1,MALE,Neuroendocrine,0.022,0.022,soft_tissue,others,18.627,18.2
+DFCI_510019,Pancreatic Cancer,PACLITAXEL/GEMCITABINE,Not Concordant,"The standard combination is nab-paclitaxel with gemcitabine, not paclitaxel.",1,MALE,Pancreaticobiliary,0.047,0.028,others,adenocarcinoma,8.069,1.433
+DFCI_327508,Esophagogastric Cancer,PEMETREXED/CARBOPLATIN,Not Concordant,Pemetrexed is not typically used in esophagogastric cancers.,1,MALE,,0.033,0.041,bone,others,4.896,0.1
+DFCI_922836,Breast Cancer,PACLITAXEL,Concordant,Paclitaxel is a standard option in metastatic breast cancer.,1,FEMALE,Mullerian (ovarian),0.339,0.013,others,others,3.257,0.0
+DFCI_441921,Esophagogastric Cancer,GEMCITABINE/CISPLATIN,Not Concordant,This regimen is not standard for esophagogastric cancer.,1,FEMALE,Pancreaticobiliary ,0.372,0.013,others,adenocarcinoma,5.273,1.133
+DFCI_741897,Prostate Cancer,DOCETAXEL/CARBOPLATIN,Not Concordant,"While docetaxel is used in prostate cancer, it is not typically combined with carboplatin.",1,MALE,Prostate ,0.24,0.017,others,others,8.187,2.767
+DFCI_486109,Soft Tissue Sarcoma,CARBOPLATIN/PACLITAXEL,Not Concordant,There is no established role for this combination as first‐line therapy in soft tissue sarcoma.,1,FEMALE,High grade Mullerian primary,0.105,0.022,others,others,8.555,7.767
+DFCI_191524,Non-Small Cell Lung Cancer,PEMETREXED/CARBOPLATIN,Concordant,Standard platinum doublet regimen for NSCLC.,1,FEMALE,,0.161,0.043,soft_tissue,adenocarcinoma,1.81,0.233
+DFCI_879486,Gastrointestinal Neuroendocrine Tumor,OCTREOTIDE,Concordant,Octreotide is the standard treatment for NETs.,0,FEMALE,Neuroendocrine,0.018,0.015,others,neuroendocrine,2.484,0.0
+DFCI_800331,Breast Cancer,PEMETREXED,Not Concordant,Pemetrexed is not used in the treatment of breast cancer.,1,FEMALE,Mullerian (ovarian),0.161,0.024,others,others,4.865,0.233
+DFCI_611555,Pancreatic Cancer,PACLITAXEL/GEMCITABINE,Not Concordant,"Standard pancreatic regimens use nab-paclitaxel, not paclitaxel.",0,MALE,,0.158,0.032,others,adenocarcinoma,17.207,0.0
+DFCI_634791,Glioma,GEMCITABINE/CISPLATIN,Not Concordant,This combination is not recognized in glioma treatment.,1,FEMALE,Intrahepatic cholangiocarinoma,0.22,0.041,others,adenocarcinoma,19.648,2.467
+DFCI_930155,Breast Cancer,CARBOPLATIN/GEMCITABINE,Not Concordant,Not a standard first‐line regimen in breast cancer.,1,FEMALE,Urothelial carcinoma,0.123,0.054,others,adenocarcinoma,7.037,5.0
+DFCI_256492,Bladder Cancer,CARBOPLATIN/PACLITAXEL,Not Concordant,The standard regimen is gemcitabine/cisplatin.,1,MALE,SCC,0.278,0.02,others,others,4.628,1.967
+DFCI_269630,Breast Cancer,GEMCITABINE/CISPLATIN,Not Concordant,This regimen is not standard for breast cancer.,1,FEMALE,SCC,0.28,0.028,others,squamous_cell,6.615,0.833
+DFCI_418538,Esophagogastric Cancer,PEMBROLIZUMAB,Not Concordant,Monotherapy immunotherapy is not standard first‐line treatment.,1,MALE,,0.087,0.02,others,others,2.665,2.567
+DFCI_798483,Non-Small Cell Lung Cancer,PACLITAXEL/GEMCITABINE,Not Concordant,This combination is not a recognized first‐line regimen for NSCLC.,1,MALE,Pancreaticobiliary,0.318,0.022,others,adenocarcinoma,24.25,0.4
+DFCI_982582,Gastrointestinal Neuroendocrine Tumor,OCTREOTIDE,Concordant,Octreotide is the standard treatment for NETs.,0,MALE,Neuroendocrine,0.231,0.007,bone,neuroendocrine,14.006,0.0
+DFCI_893291,Esophagogastric Cancer,CAPECITABINE,Not Concordant,Capecitabine monotherapy is not standard for esophagogastric cancer.,1,MALE,Breast ,0.235,0.069,soft_tissue,others,2.985,0.0
+DFCI_704912,Gastrointestinal Stromal Tumor,GEMCITABINE/CISPLATIN,Not Concordant,Standard first‐line therapy for GIST is imatinib.,1,MALE,Intrahepatic cholangiocarcinoma,0.013,0.024,bone,adenocarcinoma,3.098,0.667
+DFCI_211448,Non-Small Cell Lung Cancer,PEMBROLIZUMAB,Concordant,Pembrolizumab is approved for NSCLC.,0,MALE,Lung,0.325,0.013,others,adenocarcinoma,30.115,0.0
+DFCI_801997,Gastrointestinal Neuroendocrine Tumor,DOCETAXEL,Not Concordant,Docetaxel is not a standard treatment for neuroendocrine tumors.,0,MALE,Prostate ,0.451,0.028,others,others,20.444,18.9
+DFCI_115200,Colorectal Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Concordant,FOLFOX is a standard regimen for colorectal cancer.,1,MALE,Pancreaticobiliary,0.053,0.016,others,adenocarcinoma,10.019,2.233
+DFCI_854405,Non-Small Cell Lung Cancer,NIVOLUMAB,Not Concordant,Nivolumab is generally used in later lines of therapy in NSCLC.,1,FEMALE,Head and Neck,0.103,0.052,others,squamous_cell,7.235,0.533
+DFCI_963595,Pancreatic Cancer,ETOPOSIDE/CARBOPLATIN,Not Concordant,This combination is not standard for pancreatic cancer.,1,MALE,Neuroendocrine carcinoma,0.386,0.026,bone,neuroendocrine,26.153,2.5
+DFCI_208643,Non-Small Cell Lung Cancer,ETOPOSIDE/CARBOPLATIN,Not Concordant,Etoposide/carboplatin is reserved for small cell lung cancer.,0,MALE,Neuroendocrine carcinoma,0.262,0.009,others,neuroendocrine,2.091,1.5
+DFCI_373034,Hepatobiliary Cancer,GEMCITABINE/CISPLATIN,Concordant,This regimen is used in biliary tract cancers.,0,MALE,Pancreaticobiliary,0.094,0.007,others,others,10.448,0.0
+DFCI_439803,Esophagogastric Cancer,IMATINIB,Not Concordant,Imatinib is not indicated for esophagogastric cancers.,0,FEMALE,,0.105,0.078,brain,neuroendocrine,48.84,26.567
+DFCI_157877,Esophagogastric Cancer,CAPECITABINE,Not Concordant,Capecitabine monotherapy is not standard for esophagogastric cancer.,1,FEMALE,Pancreaticobiliary ,0.312,0.011,others,adenocarcinoma,2.576,0.933
+DFCI_111964,Non-Small Cell Lung Cancer,ETOPOSIDE/CARBOPLATIN,Not Concordant,Not a standard regimen for NSCLC.,1,MALE,SCLC,0.293,0.019,brain,others,2.928,0.3
+DFCI_710191,Renal Cell Carcinoma,GEMCITABINE/CISPLATIN,Not Concordant,This regimen is not used for renal cell carcinoma.,0,MALE,,0.152,0.02,bone,adenocarcinoma,24.727,19.733
+DFCI_310913,Pancreatic Cancer,FOLFIRINOX,Concordant,FOLFIRINOX is a standard first‐line therapy.,1,FEMALE,Pancreaticobiliary,0.009,0.026,others,adenocarcinoma,20.125,8.167
+DFCI_433223,Non-Small Cell Lung Cancer,CARBOPLATIN/PACLITAXEL,Concordant,Carboplatin/paclitaxel is a recognized regimen in NSCLC.,1,FEMALE,Endometrial,0.271,0.035,others,others,12.479,4.233
+DFCI_270725,Pancreatic Cancer,GEMCITABINE/CISPLATIN,Not Concordant,Not a standard regimen for pancreatic cancer.,1,FEMALE,Pancreaticobiliary,0.026,0.013,others,adenocarcinoma,3.892,3.367
+DFCI_631468,Soft Tissue Sarcoma,OCTREOTIDE,Not Concordant,"Octreotide is used for NETs, not soft tissue sarcoma.",0,FEMALE,Neuroendocrine,0.269,0.009,bone,neuroendocrine,7.751,0.0
+DFCI_658387,Breast Cancer,ETOPOSIDE/CISPLATIN,Not Concordant,This regimen is not used as first‐line therapy in breast cancer.,0,FEMALE,Neuroendocrine,0.087,0.011,others,neuroendocrine,33.102,1.4
+DFCI_264058,Bladder Cancer,CETUXIMAB/CARBOPLATIN/FLUOROURACIL,Not Concordant,Not a recognized first‐line treatment for bladder cancer.,1,MALE,Oropharyngeal SCC,0.029,0.039,bone,squamous_cell,2.966,0.633
+DFCI_954327,Ovarian Cancer,GEMCITABINE/CISPLATIN,Not Concordant,Standard ovarian treatment is carboplatin/paclitaxel.,1,FEMALE,Cholangiocarcinoma,0.318,0.02,others,adenocarcinoma,17.634,1.8
+DFCI_419479,Breast Cancer,GEMCITABINE/CISPLATIN,Not Concordant,Not standard for breast cancer.,1,FEMALE,Pancreaticobiliary,0.271,0.02,others,adenocarcinoma,3.439,1.567
+DFCI_270284,Melanoma,GEMCITABINE/CISPLATIN,Not Concordant,Standard melanoma treatment involves immunotherapy or targeted agents.,1,MALE,Pancreaticobiliary,0.109,0.019,bone,adenocarcinoma,4.023,3.3
+DFCI_987813,Endometrial Cancer,CARBOPLATIN/DOXORUBICIN,Not Concordant,This regimen is not standard first‐line treatment for endometrial cancer.,1,FEMALE,,0.572,0.032,others,others,13.532,11.167
+DFCI_911798,Colorectal Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Concordant,FOLFOX is standard in colorectal cancer.,0,FEMALE,Gastrointestinal,0.049,0.162,brain,adenocarcinoma,47.867,0.167
+DFCI_375768,Bladder Cancer,CARBOPLATIN/PACLITAXEL,Not Concordant,Not the standard regimen for bladder cancer.,1,MALE,Myoepithelial carcinoma,0.119,0.017,others,others,13.797,0.0
+DFCI_278033,Non-Small Cell Lung Cancer,GEFITINIB,Concordant,Geﬁtinib is an appropriate targeted therapy in EGFR-mutated NSCLC.,1,MALE,Recurrent SCC,0.374,0.071,others,squamous_cell,28.678,0.0
+DFCI_152866,Breast Cancer,CAPECITABINE,Concordant,Capecitabine is an accepted option for metastatic breast cancer.,0,FEMALE,Pancreaticobiliary,0.314,0.022,others,adenocarcinoma,14.438,1.133
+DFCI_296432,Breast Cancer,PACLITAXEL,Concordant,Paclitaxel is a common treatment in breast cancer.,1,FEMALE,Neuroendocrine,0.112,0.013,bone,neuroendocrine,53.529,23.7
+DFCI_475262,Colorectal Cancer,FOLFIRINOX,Not Concordant,"FOLFIRINOX is used in pancreatic cancer, not colorectal.",1,FEMALE,,0.161,0.022,others,adenocarcinoma,4.251,0.9
+DFCI_856040,Endometrial Cancer,PACLITAXEL,Not Concordant,Paclitaxel monotherapy is not standard first‐line treatment for endometrial cancer.,0,FEMALE,Mullerian (ovarian),0.184,0.019,others,others,16.058,0.0
+DFCI_829422,Non-Small Cell Lung Cancer,PEMETREXED/CISPLATIN,Concordant,Platinum doublet with pemetrexed is standard in NSCLC.,0,FEMALE,Lung,0.256,0.104,others,adenocarcinoma,45.592,0.0
+DFCI_488484,Gastrointestinal Stromal Tumor,NIVOLUMAB,Not Concordant,Immunotherapy is not standard for GIST.,0,FEMALE,Pancreaticobiliary,0.102,0.01,others,others,10.346,0.0
+DFCI_740086,Colorectal Cancer,PEMETREXED/CARBOPLATIN,Not Concordant,Pemetrexed is not used in colorectal cancer.,1,MALE,Lung ,0.151,0.029,others,adenocarcinoma,9.909,1.433
+DFCI_918287,Breast Cancer,GEMCITABINE/CISPLATIN,Not Concordant,Not a standard regimen in breast cancer.,1,FEMALE,Cholangiocarcinoma,0.108,0.026,others,adenocarcinoma,1.523,0.8
+DFCI_419877,Pancreatic Cancer,CAPECITABINE/TEMOZOLOMIDE,Not Concordant,This regimen is not standard for pancreatic cancer.,0,FEMALE,Neuroendocrine ,0.74,0.011,others,neuroendocrine,33.33,1.267
+DFCI_916984,Breast Cancer,CAPECITABINE,Concordant,Capecitabine is a recognized option for breast cancer.,1,FEMALE,Breast ,0.362,0.029,others,others,4.137,0.0
+DFCI_430267,Pancreatic Cancer,FOLFIRINOX,Concordant,FOLFIRINOX is a standard treatment for pancreatic cancer.,1,MALE,Pancreaticobiliary,0.267,0.011,soft_tissue,adenocarcinoma,3.396,0.833
+DFCI_409774,Colorectal Cancer,ETOPOSIDE/CISPLATIN,Not Concordant,Platinum-etoposide is not standard in colorectal cancer.,1,MALE,Neuroendocrine carcinoma,0.137,0.015,others,neuroendocrine,8.098,1.167
+DFCI_930573,Ovarian Cancer,CARBOPLATIN/GEMCITABINE,Not Concordant,Standard ovarian therapy is carboplatin/paclitaxel.,1,FEMALE,,0.365,0.009,soft_tissue,adenocarcinoma,28.523,2.8
+DFCI_583284,Non-Small Cell Lung Cancer,PEMETREXED/CARBOPLATIN,Concordant,Consistent with standard NSCLC treatment.,0,FEMALE,Lung,0.285,0.078,others,others,60.0,16.267
+DFCI_617708,Breast Cancer,PERTUZUMAB/TRASTUZUMAB/PACLITAXEL,Concordant,This combination is standard for HER2‐positive breast cancer.,0,FEMALE,Breast,0.401,0.017,others,others,6.498,4.1
+DFCI_507676,Breast Cancer,FOLFIRI,Not Concordant,"FOLFIRI is used in colorectal cancer, not breast cancer.",1,FEMALE,Upper GI,0.007,0.022,brain,adenocarcinoma,10.163,5.367
+DFCI_927149,Colorectal Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Concordant,FOLFOX is a standard regimen for colorectal cancer.,1,MALE,Appendiceal,0.026,0.025,others,adenocarcinoma,19.866,1.667
+DFCI_969504,Breast Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Not Concordant,This regimen is not standard for breast cancer.,0,FEMALE,GI primary (including appendix),0.039,0.025,others,others,4.694,2.0
+DFCI_527224,Non-Small Cell Lung Cancer,BEVACIZUMAB/OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Not Concordant,Regimen is more typical for colorectal cancer.,1,MALE,Colorectal,0.182,0.039,brain,adenocarcinoma,0.953,0.0
+DFCI_508408,Breast Cancer,CARBOPLATIN/PACLITAXEL,Not Concordant,Not a recognized first‐line regimen in breast cancer.,1,FEMALE,"Mullerian (ovarian) origin, clear cell carcinoma",0.004,0.017,others,adenocarcinoma,17.232,3.5
+DFCI_155743,Non-Small Cell Lung Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Not Concordant,FOLFOX is not standard for NSCLC.,1,MALE,Urothelial primary,0.226,0.061,soft_tissue,others,15.763,1.9
+DFCI_189028,Esophagogastric Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Concordant,FOLFOX is widely accepted in esophagogastric cancer.,1,MALE,,0.318,0.028,others,adenocarcinoma,7.69,0.167
+DFCI_901958,Colorectal Cancer,PACLITAXEL/GEMCITABINE,Not Concordant,This combination is not standard for colorectal cancer.,1,FEMALE,Intrahepatic cholangiocarcinoma,0.034,0.009,others,adenocarcinoma,2.879,1.433
+DFCI_677768,Pancreatic Cancer,PACLITAXEL/GEMCITABINE,Not Concordant,Not standard for pancreatic cancer (nab-paclitaxel is preferred).,1,MALE,Pancreatic,0.341,0.037,bone,adenocarcinoma,2.382,1.133
+DFCI_666796,Esophagogastric Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Concordant,FOLFOX is an accepted regimen for esophagogastric cancers.,1,MALE,Gastric,0.309,0.024,others,adenocarcinoma,36.519,6.0
+DFCI_802272,Pancreatic Cancer,FOLFIRINOX,Concordant,FOLFIRINOX is a standard first‐line option.,1,FEMALE,Upper GI,0.01,0.025,others,adenocarcinoma,21.814,4.567
+DFCI_545844,Thyroid Cancer,PEMBROLIZUMAB,Not Concordant,Immunotherapy is not standard for thyroid cancer.,1,MALE,,0.081,0.115,others,others,2.474,0.733
+DFCI_921614,Melanoma,PEMETREXED/CARBOPLATIN,Not Concordant,Platinum-based chemotherapy is not standard for melanoma.,1,MALE,Malignant mesothelioma,0.419,0.022,others,others,5.513,4.133
+DFCI_162078,Sex Cord Stromal Tumor,ETOPOSIDE/CISPLATIN,Not Concordant,This regimen is not standard for sex cord stromal tumors.,1,MALE,,0.009,0.015,bone,neuroendocrine,5.655,2.567
+DFCI_836714,Pancreatic Cancer,BEVACIZUMAB/OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Not Concordant,Not recognized as standard for pancreatic cancer.,1,FEMALE,GI,0.01,0.016,others,adenocarcinoma,31.35,0.7
+DFCI_138713,Endometrial Cancer,GEMCITABINE/CISPLATIN,Not Concordant,This regimen is not standard for endometrial cancer.,1,FEMALE,Cholangiocarcinoma,0.17,0.02,others,adenocarcinoma,5.682,4.467
+DFCI_106865,Pancreatic Cancer,FOLFIRINOX,Concordant,FOLFIRINOX is a standard first‐line treatment.,1,FEMALE,Upper GI,0.009,0.02,others,adenocarcinoma,20.117,0.8
+DFCI_747114,Prostate Cancer,DOCETAXEL,Concordant,Docetaxel is a standard therapy in metastatic prostate cancer.,0,MALE,Small cell carcinoma,0.572,0.004,bone,neuroendocrine,26.526,23.767
+DFCI_950601,Pancreatic Cancer,IRINOTECAN/CISPLATIN,Not Concordant,Not a recognized first‐line regimen for pancreatic cancer.,1,MALE,Upper GI,0.03,0.032,others,adenocarcinoma,2.074,0.3
+DFCI_707367,Bladder Cancer,GEMCITABINE/CISPLATIN,Concordant,Gemcitabine/cisplatin is standard for advanced bladder cancer.,1,MALE,intrahepatic cholangiocarcinoma,0.016,0.02,others,others,2.688,1.867
+DFCI_385828,Breast Cancer,TOPOTECAN,Not Concordant,Topotecan is not standard for breast cancer.,1,FEMALE,,0.3,0.017,brain,others,10.325,0.0
+DFCI_454619,Non-Small Cell Lung Cancer,PEMETREXED,Not Concordant,Monotherapy with pemetrexed is not standard in NSCLC.,1,MALE,Malignant mesothelioma,0.309,0.022,others,others,36.465,36.333
+DFCI_444408,Breast Cancer,CARBOPLATIN/PACLITAXEL,Not Concordant,This combination is not standard first‐line therapy in breast cancer.,1,FEMALE,Ovarian,0.46,0.032,soft_tissue,adenocarcinoma,39.925,2.967
+DFCI_789362,Breast Cancer,CAPECITABINE,Concordant,Capecitabine is an accepted option for metastatic breast cancer.,0,FEMALE,,0.175,0.015,others,others,16.924,2.633
+DFCI_175249,Colorectal Cancer,PACLITAXEL/GEMCITABINE,Not Concordant,Not a standard regimen for colorectal cancer.,0,MALE,,0.029,0.022,others,adenocarcinoma,10.622,0.767
+DFCI_616306,Breast Cancer,OLAPARIB,Concordant,Olaparib is approved for BRCA‐mutated metastatic breast cancer.,1,FEMALE,Pancreaticobiliary,0.251,0.009,others,adenocarcinoma,31.97,0.0
+DFCI_963265,Pancreatic Cancer,FOLFIRINOX,Concordant,FOLFIRINOX is standard for pancreatic cancer.,1,FEMALE,,0.07,0.026,others,adenocarcinoma,1.259,0.733
+DFCI_745201,Non-Small Cell Lung Cancer,GEMCITABINE/CISPLATIN,Concordant,An acceptable regimen for NSCLC.,0,MALE,GI ,0.128,0.105,brain,adenocarcinoma,54.732,2.367
+DFCI_130144,Non-Small Cell Lung Cancer,CABOZANTINIB,Not Concordant,Cabozantinib is not standard as first‐line therapy in NSCLC.,1,MALE,Pancreaticobiliary,0.28,0.013,others,adenocarcinoma,14.107,0.933
+DFCI_489968,Non-Small Cell Lung Cancer,PEMETREXED/CARBOPLATIN,Concordant,Standard platinum doublet regimen.,1,FEMALE,Lung,0.195,0.033,others,others,28.591,25.7
+DFCI_204995,Appendiceal Cancer,GEMCITABINE/CISPLATIN,Not Concordant,There is no established first‐line regimen of gemcitabine/cisplatin for appendiceal cancer.,1,MALE,Prostate (=urothelial=lung),0.061,0.004,others,others,5.89,0.633
+DFCI_363207,Hepatobiliary Cancer,GEMCITABINE/CISPLATIN,Concordant,This regimen is used in biliary tract cancers.,1,FEMALE,Pancreaticobiliary,0.092,0.013,others,adenocarcinoma,18.541,3.167
+DFCI_545405,Gastrointestinal Neuroendocrine Tumor,EVEROLIMUS,Concordant,Everolimus is approved for certain neuroendocrine tumors.,0,MALE,Gastrointestinal,0.182,0.013,others,neuroendocrine,41.26,0.0
+DFCI_534968,Soft Tissue Sarcoma,PEMETREXED/CARBOPLATIN,Not Concordant,Not a recognized first‐line regimen for soft tissue sarcoma.,1,FEMALE,,0.161,0.032,bone,adenocarcinoma,16.189,0.0
+DFCI_390039,Ovarian Cancer,FLUOROURACIL/LEUCOVORIN,Not Concordant,Fluorouracil/leucovorin is not standard for ovarian cancer.,1,FEMALE,,0.009,0.026,others,others,8.925,6.067
+DFCI_618652,Pancreatic Cancer,FOLFIRINOX,Concordant,FOLFIRINOX is a standard treatment.,1,FEMALE,Pancreatic,0.33,0.022,others,adenocarcinoma,9.443,1.0
+DFCI_514553,Non-Small Cell Lung Cancer,FOLFIRINOX,Not Concordant,FOLFIRINOX is specific for pancreatic cancer.,1,MALE,Upper GI,0.112,0.013,others,adenocarcinoma,9.358,1.933
+DFCI_180147,Breast Cancer,CARBOPLATIN/GEMCITABINE,Not Concordant,This regimen is not standard for breast cancer.,1,FEMALE,Mullerian (ovarian),0.507,0.022,others,adenocarcinoma,29.47,20.633
+DFCI_619208,Hepatobiliary Cancer,GEMCITABINE/CISPLATIN,Concordant,Used as standard treatment in biliary tract cancers.,1,MALE,Intrahepatic cholangiocarcinoma,0.296,0.007,others,others,4.196,1.633
+DFCI_280267,Pancreatic Cancer,GEMCITABINE/CISPLATIN,Not Concordant,Not a standard regimen for pancreatic cancer.,1,MALE,Upper GI,0.039,0.019,others,adenocarcinoma,11.823,2.033
+DFCI_366993,Ovarian Cancer,CARBOPLATIN/PACLITAXEL,Concordant,Carboplatin/paclitaxel is the standard first‐line treatment.,0,FEMALE,Mullerian (ovarian),0.132,0.017,others,adenocarcinoma,50.395,2.333
+DFCI_961086,Colorectal Cancer,FOLFIRI,Concordant,FOLFIRI is an accepted regimen for colorectal cancer.,1,MALE,Colorectal,0.256,0.017,others,adenocarcinoma,7.102,0.0
+DFCI_176501,Pancreatic Cancer,FOLFIRINOX,Concordant,FOLFIRINOX is a standard first‐line therapy.,1,MALE,Upper GI,0.359,0.022,others,adenocarcinoma,4.56,1.833
+DFCI_508938,Esophagogastric Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Concordant,FOLFOX is widely accepted for esophagogastric cancers.,1,MALE,Cholangiocarcinoma,0.139,0.022,others,adenocarcinoma,5.227,0.233
+DFCI_191611,Soft Tissue Sarcoma,CARBOPLATIN/PACLITAXEL,Not Concordant,Not a recognized first‐line regimen for soft tissue sarcoma.,0,FEMALE,Rectal adenocarcinoma,0.15,0.033,others,adenocarcinoma,8.964,0.0
+DFCI_450713,Breast Cancer,BEVACIZUMAB/PACLITAXEL/CISPLATIN,Not Concordant,This combination is not standard as first‐line treatment in breast cancer.,1,FEMALE,Urothelial,0.309,0.037,soft_tissue,others,0.832,0.767
+DFCI_162062,Pancreatic Cancer,FOLFIRINOX,Concordant,FOLFIRINOX is a standard regimen.,1,MALE,Pancreaticobiliary,0.016,0.019,others,adenocarcinoma,10.74,2.133
+DFCI_831074,Gastrointestinal Neuroendocrine Tumor,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Not Concordant,FOLFOX is not typically used for neuroendocrine tumors.,0,MALE,Colorectal adenocarcinoma,0.056,0.011,others,neuroendocrine,60.0,19.733
+DFCI_232746,Non-Small Cell Lung Cancer,GEMCITABINE/CISPLATIN,Concordant,An acceptable regimen in selected NSCLC cases.,1,MALE,Cholangiocarcinoma,0.186,0.024,others,others,5.72,0.233
+DFCI_543479,Colorectal Cancer,OXALIPLATIN/FLUOROURACIL/LEUCOVORIN,Concordant,FOLFOX is standard in colorectal cancer.,0,MALE,Colorectal,0.002,0.017,others,others,9.331,0.1
+DFCI_313519,Pancreatic Cancer,NIVOLUMAB,Not Concordant,Nivolumab is not used as first‐line therapy in pancreatic cancer.,1,MALE,,0.007,0.004,others,others,10.68,9.333
+DFCI_578318,Bladder Cancer,GEMCITABINE/CISPLATIN,Concordant,Standard regimen for advanced bladder cancer.,1,FEMALE,Cholangiocarcinoma,0.135,0.037,others,others,6.58,0.667
+DFCI_567741,Pancreatic Cancer,BEVACIZUMAB/CARBOPLATIN/PACLITAXEL,Not Concordant,This combination is not recognized as standard for pancreatic cancer.,0,FEMALE,Vulvar SCC,0.15,0.035,others,squamous_cell,3.391,0.5

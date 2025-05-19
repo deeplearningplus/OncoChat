@@ -1,0 +1,3 @@
+1. CUP_719,CUP_mutational from GENIE database:https://doi.org/10.7303/syn55234548
+2. CUP_26 from : https://aacr.silverchair-cdn.com/aacr/content_public/journal/cancerdiscovery/14/6/10.1158_2159-8290.cd-23-0996/5/cd-23-0996_table_s17_suppst17.xlsx
+3. CUP_158 from :https://github.com/itmoon7/onconpc/tree/main/data and https://static-content.springer.com/esm/art%3A10.1038%2Fs41591-023-02482-6/MediaObjects/41591_2023_2482_MOESM7_ESM.csv
