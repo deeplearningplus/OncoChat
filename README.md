@@ -65,6 +65,10 @@ Fine-tuned models are available for download from [BaiduDisk](https://pan.baidu.
 ## Dataset used in this study
 The  full dataset for fine-tune OncoChat is available at [GENIE](https://doi.org/10.7303/syn55234548).
 
+## Benchmark Methods：
+- GDD-ENS:Darmofal M, Suman S, Atwal G, et al. Deep-learning model for tumor-type prediction using targeted clinical genomic sequencing data[J]. Cancer discovery, 2024, 14(6): 1064-1081.
+- OncoNPC:Moon I, LoPiccolo J, Baca S C, et al. Machine learning for genetics-based classification and treatment response prediction in cancer of unknown primary[J]. Nature medicine, 2023, 29(8): 2057-2067.
+
 ## LLM used in this study
 - Qwen-1.5 : https://huggingface.co/Qwen 
 - Mamba : https://huggingface.co/state-spaces
